@@ -14,7 +14,7 @@ class MoneyColumn extends TextColumn
     {
         parent::setUp();
 
-        $this->isMoney = true;
+        // Removed $this->isMoney = true; for Filament v4 compatibility
         $this->numeric();
 
         $this->formatStateUsing(function (MoneyColumn $component, null|int|string $state): string {

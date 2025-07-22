@@ -25,7 +25,7 @@ This package would give "1 234,56 kr", while most other solutions probably would
 ## Requirements
 
 - PHP 8.2 or higher
-- Filament 3.0 or higher
+- Filament 4.0 or higher
 - [PHP Internationalization extension (intl)](https://www.php.net/manual/en/intro.intl.php)
 - The database column should be a integers with minor units (i.e. cents) and not a float (Floats should never be used for storing money).
 

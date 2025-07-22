@@ -14,7 +14,7 @@ class MoneyEntry extends TextEntry
     {
         parent::setUp();
 
-        $this->isMoney = true;
+        // Removed $this->isMoney = true; for Filament v4 compatibility
         $this->numeric();
 
         $this->formatStateUsing(function (MoneyEntry $component, null|int|string $state): string {

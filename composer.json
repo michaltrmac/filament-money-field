@@ -26,12 +26,12 @@
     "require": {
         "php": "^8.2",
         "ext-intl": "*",
-        "filament/support": "^v3.2.39",
+        "filament/support": "^4.0",
         "moneyphp/money": "^4.0",
         "illuminate/support": "^11.0|^12.0"
     },
     "require-dev": {
-        "filament/filament": "^3.2",
+        "filament/filament": "^4.0",
         "orchestra/testbench": "^9.0",
         "phpstan/phpstan": "^1.12.2",
         "nunomaduro/collision": "^8.0",
